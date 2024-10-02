@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    char s[] = "Programming is fun";
+    int i;
+
+    for (i = 0; s[i] != '\0'; ++i);
+
+    printf("Length of the string: %d", i);
+    return 0;
+}
+strlen()	computes string's length
+strcpy()	copies a string to another
+strcat()	concatenates(joins) two strings
+strcmp()	compares two strings
+strlwr()	converts string to lowercase
+strupr()	converts string to uppercase
